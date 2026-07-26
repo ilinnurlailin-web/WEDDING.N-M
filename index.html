@@ -1,0 +1,115 @@
+index.html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation | Nur & Huda</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<audio id="musik" autoplay loop>
+    <source src="musik.mp3" type="audio/mpeg">
+</audio>
+
+<section class="cover">
+
+    <img src="background.jpg" class="background">
+
+    <div class="overlay"></div>
+
+    <div class="content">
+
+        <p>The Wedding Of</p>
+
+        <h1>Nur <span>&</span> Huda</h1>
+
+        <p class="tanggal">
+            Sabtu, 22 Agustus 2026
+        </p>
+
+        <div class="guest">
+            Kepada Yth.
+            <h2 id="namaTamu">Tamu Undangan</h2>
+        </div>
+
+        <button onclick="bukaUndangan()">
+            Buka Undangan
+        </button>
+
+    </div>
+
+</section>
+
+<section id="undangan" style="display:none">
+
+    <h2>Assalamu'alaikum Warahmatullahi Wabarakatuh</h2>
+
+    <p>
+        Dengan memohon rahmat dan ridho Allah SWT,
+        kami mengundang Bapak/Ibu/Saudara/i
+        untuk menghadiri acara pernikahan kami.
+    </p>
+
+    <h1>Nur & Huda</h1>
+
+    <img src="foto-mempelai.jpg"
+         class="foto">
+
+    <div class="countdown">
+
+        <div>
+            <span id="hari">0</span>
+            <small>Hari</small>
+        </div>
+
+        <div>
+            <span id="jam">0</span>
+            <small>Jam</small>
+        </div>
+
+        <div>
+            <span id="menit">0</span>
+            <small>Menit</small>
+        </div>
+
+        <div>
+            <span id="detik">0</span>
+            <small>Detik</small>
+        </div>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Akad Nikah</h2>
+
+        <p>
+            Sabtu<br>
+            22 Agustus 2026<br>
+            Pukul 08.00 WITA
+        </p>
+
+        <p>
+            Jembayan Gg. Ashabul Kahfi RT.017<br>
+            Kelurahan Jembayan<br>
+            Kecamatan Loa Kulu
+        </p>
+
+        <a href="https://www.google.com/maps/place/C2V5%2BR95+MY+HOME,+Jembayan,+Kec.+Loa+Kulu,+Kabupaten+Kutai+Kartanegara,+Kalimantan+Timur+75391/"
+           target="_blank">
+            Lihat Lokasi
+        </a>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
